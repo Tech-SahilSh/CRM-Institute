@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+:root {
+            --primary-color: #4e73df;
+            --secondary-color: #1cc88a;
+            --accent-color: #f6c23e;
+            --dark-color: #5a5c69;
+        }
+         body {
+            background: #f0f8ff;
+         
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(78, 115, 223, 0.8), rgba(78, 115, 223, 0.8)), 
+                        url('assets/images/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 6rem 0;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .course-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            border-radius: 0.5rem;
+            overflow: hidden;
+        }
+        
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+        
+        .course-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        
+        .testimonial-card {
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #3a56c7;
+            border-color: #3a56c7;
+        }
+        
+        /*Login css*/
+         .login-container {
+            max-width: 500px;
+            margin: 1rem auto;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+        
+        .login-header {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        .login-logo {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #3a56c7;
+            border-color: #3a56c7;
+        }
+        
+        .login-footer {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+       
+        
+        .wrapper {
+            width: 100%;
+            background-color: #f8f9fc;
+            display: flex;
+            align-items: center;
+            min-height: 60vh;
+        }
+        
+        /* Register style*/
+         .register-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        }
+        
+        .register-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .register-logo {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(78, 115, 223, 0.25);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: #3a56c7;
+            border-color: #3a56c7;
+        }
+        
+        .register-footer {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+        
+        
+        .password-toggle {
+            cursor: pointer;
+        }
+        
+        /* save student jsp*/
+       
+      
+        
+        .message {
+            font-size: 18px;
+            color: #155724;
+            margin: 100px 20px;
+        }
+        
+        /* Login success */
+         .log_s_container {
+            background: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #bbb;
+            text-align: center;
+        }
+        .log_s_success {
+            color: #155724;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .log_s_error {
+            color: #721c24;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .log_s_btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+        .log_s_btn:hover {
+            background: #0056b3;
+        }
